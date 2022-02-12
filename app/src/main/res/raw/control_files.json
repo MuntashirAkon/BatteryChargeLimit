@@ -16,7 +16,15 @@
   {
     "file": "/proc/smb1357_disable_chrg",
     "label": "SMB1357",
-    "details": "Asus ZenFone 2, Asus ZenFone Zoom",
+    "details": "Asus ZenFone 2",
+    "chargeOn": "0",
+    "chargeOff": "1",
+    "experimental": true
+  },
+  {
+    "file": "/proc/smb1357_disable_chrg",
+    "label": "SMB1357",
+    "details": "Asus ZenFone Zoom",
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
@@ -32,7 +40,7 @@
   {
     "file": "/sys/class/power_supply/battery/charger_control",
     "label": "charger_control",
-    "details": "Google Pixel [sailfish], HTC One [m8, m8d]",
+    "details": "Google Pixel [sailfish]",
     "chargeOn": "1",
     "chargeOff": "0",
     "experimental": true
@@ -48,9 +56,17 @@
   {
     "file": "/sys/class/power_supply/battery/input_suspend",
     "label": "input_suspend",
-    "details": "Google Pixel 2 [walleye], Xiaomi Mi 6 [sagit]",
+    "details": "Google Pixel 2 [walleye]",
     "chargeOn": "0",
     "chargeOff": "1"
+  },
+  {
+    "file": "/sys/class/power_supply/battery/charger_control",
+    "label": "charger_control",
+    "details": "HTC One [m8, m8d]",
+    "chargeOn": "1",
+    "chargeOff": "0",
+    "experimental": true
   },
   {
     "file": "/sys/class/hw_power/charger/charge_data/enable_charger",
@@ -171,6 +187,13 @@
     "details": "Universal",
     "chargeOn": "1",
     "chargeOff": "0"
+  },
+  {
+    "file": "/sys/class/power_supply/battery/input_suspend",
+    "label": "input_suspend",
+    "details": "Xiaomi Mi 6 [sagit]",
+    "chargeOn": "0",
+    "chargeOff": "1"
   },
   {
     "file": "/sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/battery_charging_enabled",
