@@ -20,7 +20,7 @@
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
-  }
+  },
   {
     "file": "/sys/devices/platform/battery/CCIChargerSwitch",
     "label": "CCIChargerSwitch",
