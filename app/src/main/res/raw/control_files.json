@@ -9,24 +9,48 @@
   {
     "file": "/sys/devices/platform/omap/omap_i2c.3/i2c-3/3-005f/charge_enable",
     "label": "charge_enable",
-    "details": "Amazon Tate LineageOS 14.1",
+    "details": "Amazon Tate (LineageOS 14.1)",
     "chargeOn": "1",
     "chargeOff": "0"
   },
   {
+    "file": "/proc/smb1357_disable_chrg",
+    "label": "SMB1357",
+    "details": "Asus ZenFone 2, Asus ZenFone Zoom",
+    "chargeOn": "0",
+    "chargeOff": "1",
+    "experimental": true
+  }
+  {
     "file": "/sys/devices/platform/battery/CCIChargerSwitch",
     "label": "CCIChargerSwitch",
-    "details": "CAT B15Q",
+    "details": "Cat B15 Q",
     "chargeOn": "1",
     "chargeOff": "0",
     "experimental": true
   },
   {
-    "file": "/sys/class/power_supply/battery/charge_enabled",
-    "label": "charge_enabled",
-    "details": "Galaxy Nexus (maguro)",
+    "file": "/sys/class/power_supply/battery/charger_control",
+    "label": "charger_control",
+    "details": "Google Pixel [sailfish], HTC One [m8, m8d]",
     "chargeOn": "1",
-    "chargeOff": "0"
+    "chargeOff": "0",
+    "experimental": true
+  },
+  {
+    "file": "/sys/class/power_supply/battery/charge_disable",
+    "label": "charge_disable",
+    "details": "Google Pixel 2 [walleye]",
+    "chargeOn": "0",
+    "chargeOff": "1",
+    "experimental": true
+  },
+  {
+    "file": "/sys/class/power_supply/battery/input_suspend",
+    "label": "input_suspend",
+    "details": "Google Pixel 2 [walleye], Xiaomi Mi 6 [sagit]",
+    "chargeOn": "0",
+    "chargeOff": "1"
   },
   {
     "file": "/sys/class/hw_power/charger/charge_data/enable_charger",
@@ -46,7 +70,7 @@
   {
     "file": "/sys/devices/platform/mt-battery/disable_charger",
     "label": "mt-battery",
-    "details": "Le 1s (x3)",
+    "details": "LeEco Le 1s (x3)",
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
@@ -54,7 +78,7 @@
   {
     "file": "/sys/class/power_supply/battery/status",
     "label": "status",
-    "details": "Motorola Defy+ (MB526)",
+    "details": "Motorola DEFY+ MB526",
     "chargeOn": "Charging",
     "chargeOff": "Discharging",
     "experimental": true
@@ -62,28 +86,28 @@
   {
     "file": "/sys/class/power_supply/battery/battery_charging_enabled",
     "label": "battery_charging_enabled",
-    "details": "Nexus",
+    "details": "Nexus [passion]",
     "chargeOn": "1",
     "chargeOff": "0"
   },
   {
     "file": "/sys/module/pm8921_charger/parameters/disabled",
     "label": "pm8921_charger",
-    "details": "Nexus 4",
+    "details": "Nexus 4 [mako]",
     "chargeOn": "0",
     "chargeOff": "1"
   },
   {
     "file": "/sys/class/power_supply/ac/charging_enabled",
     "label": "ac/charging_enabled",
-    "details": "Nexus 5",
+    "details": "Nexus 5 [hammerhead]",
     "chargeOn": "1",
     "chargeOff": "0"
   },
   {
     "file": "/sys/devices/platform/tegra12-i2c.0/i2c-0/0-006b/charging_state",
     "label": "tegra12-i2c.0",
-    "details": "Nexus 9",
+    "details": "Nexus 9 [flounder, flounder_lte]",
     "chargeOn": "enabled",
     "chargeOff": "disabled",
     "experimental": true
@@ -91,7 +115,7 @@
   {
     "file": "/sys/devices/virtual/power_supply/manta-battery/charge_enabled",
     "label": "manta-battery/charge_enabled",
-    "details": "Nexus 10",
+    "details": "Nexus 10 [manta]",
     "chargeOn": "1",
     "chargeOff": "0",
     "experimental": true
@@ -99,32 +123,9 @@
   {
     "file": "/sys/devices/platform/7000c400.i2c/i2c-1/1-006b/charging_state",
     "label": "7000c400.i2c",
-    "details": "Nvidia Shield",
+    "details": "Nvidia Shield TV (2015/2015 Pro/2017) [foster, foster_tab]",
     "chargeOn": "enabled",
     "chargeOff": "disabled"
-  },
-  {
-    "file": "/sys/class/power_supply/battery/charge_disable",
-    "label": "charge_disable",
-    "details": "Pixel 2",
-    "chargeOn": "0",
-    "chargeOff": "1",
-    "experimental": true
-  },
-  {
-    "file": "/sys/class/power_supply/battery/charger_control",
-    "label": "charger_control",
-    "details": "Pixel/HTC One",
-    "chargeOn": "1",
-    "chargeOff": "0",
-    "experimental": true
-  },
-  {
-    "file": "/sys/class/power_supply/battery/input_suspend",
-    "label": "input_suspend",
-    "details": "Pixel 2/Xiaomi Mi6",
-    "chargeOn": "0",
-    "chargeOff": "1"
   },
   {
     "file": "/sys/class/power_supply/battery/batt_slate_mode",
@@ -134,9 +135,16 @@
     "chargeOff": "1"
   },
   {
+    "file": "/sys/class/power_supply/battery/charge_enabled",
+    "label": "charge_enabled",
+    "details": "Samsung Galaxy Nexus [maguro]",
+    "chargeOn": "1",
+    "chargeOff": "0"
+  },
+  {
     "file": "/sys/class/power_supply/battery/store_mode",
     "label": "store_mode",
-    "details": "Samsung Note",
+    "details": "Samsung Galaxy Note",
     "chargeOn": "0",
     "chargeOff": "1",
     "issues": true
@@ -144,7 +152,7 @@
   {
     "file": "/sys/class/power_supply/chargalg/disable_charging",
     "label": "chargalg/disable_charging",
-    "details": "Sony XPERIA Mini ST15i",
+    "details": "Sony Ericsson Xperia mini ST15i",
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
@@ -167,7 +175,7 @@
   {
     "file": "/sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/battery_charging_enabled",
     "label": "qpnp-smbcharger-18",
-    "details": "Xiaomi Mi A1",
+    "details": "Xiaomi Mi A1 [tissot]",
     "chargeOn": "1",
     "chargeOff": "0",
     "experimental": true
@@ -183,17 +191,9 @@
   {
     "file": "/sys/devices/platform/battery/ChargerEnable",
     "label": "ChargerEnable",
-    "details": "Xiaomi Redmi Note 2 (hermes)",
+    "details": "Xiaomi Redmi Note 2 [hermes]",
     "chargeOn": "1",
     "chargeOff": "0",
-    "experimental": true
-  },
-  {
-    "file": "/proc/smb1357_disable_chrg",
-    "label": "SMB1357",
-    "details": "Zenfone 2, Zenfone Zoom",
-    "chargeOn": "0",
-    "chargeOff": "1",
     "experimental": true
   }
 ]
