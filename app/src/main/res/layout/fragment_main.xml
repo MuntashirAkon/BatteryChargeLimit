@@ -7,7 +7,7 @@
     android:fillViewport="true"
     android:background="?attr/layoutBackground"
     style="@style/CustomScrollView"
-    tools:context="com.slash.batterychargelimit.activities.MainActivity"
+    tools:context="io.github.muntashirakon.BatteryChargeLimiter.activities.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -230,7 +230,7 @@
                     app:boxStrokeColor="@color/custom_box"
                     android:layout_gravity="center_vertical|end">
 
-                    <com.slash.batterychargelimit.CustomEditText
+                    <io.github.muntashirakon.BatteryChargeLimiter.CustomEditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/voltage_threshold"

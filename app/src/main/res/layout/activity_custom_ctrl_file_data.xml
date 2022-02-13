@@ -8,7 +8,7 @@
     android:background="?attr/layoutBackground"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.slash.batterychargelimit.activities.CustomCtrlFileDataActivity">
+    tools:context="io.github.muntashirakon.BatteryChargeLimiter.activities.CustomCtrlFileDataActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                         android:layout_below="@+id/path_data_title"
                         android:layout_gravity="center_vertical|right">
 
-                        <com.slash.batterychargelimit.CustomEditText
+                        <io.github.muntashirakon.BatteryChargeLimiter.CustomEditText
                             android:id="@+id/edit_path_file"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

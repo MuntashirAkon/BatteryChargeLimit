@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:focusableInTouchMode="true"
     android:background="?attr/layoutBackground"
-    tools:context="com.slash.batterychargelimit.activities.MainActivity">
+    tools:context="io.github.muntashirakon.BatteryChargeLimiter.activities.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
