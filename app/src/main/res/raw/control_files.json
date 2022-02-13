@@ -14,9 +14,16 @@
     "chargeOff": "0"
   },
   {
+    "file": "/sys/class/power_supply/battery/device/smartchg_stop_charging",
+    "label": "smartchg_stop_charging",
+    "details": "ASUS ROG Phone 2 [msmnile]",
+    "chargeOn": "0",
+    "chargeOff": "1",
+  },
+  {
     "file": "/proc/smb1357_disable_chrg",
     "label": "SMB1357",
-    "details": "Asus ZenFone 2",
+    "details": "ASUS ZenFone 2",
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
@@ -24,7 +31,7 @@
   {
     "file": "/proc/smb1357_disable_chrg",
     "label": "SMB1357",
-    "details": "Asus ZenFone Zoom",
+    "details": "ASUS ZenFone Zoom",
     "chargeOn": "0",
     "chargeOff": "1",
     "experimental": true
@@ -57,6 +64,13 @@
     "file": "/sys/class/power_supply/battery/input_suspend",
     "label": "input_suspend",
     "details": "Google Pixel 2 [walleye]",
+    "chargeOn": "0",
+    "chargeOff": "1"
+  },
+  {
+    "file": "/sys/class/power_supply/battery/charge_disable",
+    "label": "charge_disable",
+    "details": "Google Pixel 3 [blueline]",
     "chargeOn": "0",
     "chargeOff": "1"
   },
