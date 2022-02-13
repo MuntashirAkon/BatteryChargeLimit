@@ -1,4 +1,4 @@
-package com.slash.batterychargelimit.fragments
+package io.github.muntashirakon.BatteryChargeLimiter.fragments
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,8 +10,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.pm.PackageInfoCompat
 import androidx.fragment.app.Fragment
-import com.slash.batterychargelimit.Constants
-import com.slash.batterychargelimit.R
+import io.github.muntashirakon.BatteryChargeLimiter.Constants
+import io.github.muntashirakon.BatteryChargeLimiter.R
 
 class AboutFragment : Fragment() {
 
