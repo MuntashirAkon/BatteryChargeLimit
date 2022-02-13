@@ -1,4 +1,4 @@
-package com.slash.batterychargelimit.activities
+package io.github.muntashirakon.BatteryChargeLimiter.activities
 
 import android.content.*
 import android.content.pm.PackageManager
@@ -17,19 +17,19 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.core.content.pm.PackageInfoCompat
 import com.google.android.material.switchmaterial.SwitchMaterial
-import com.slash.batterychargelimit.*
-import com.slash.batterychargelimit.Constants.AUTO_RESET_STATS
-import com.slash.batterychargelimit.Constants.CHARGE_LIMIT_ENABLED
-import com.slash.batterychargelimit.Constants.DISABLE_CHARGE_NOW
-import com.slash.batterychargelimit.Constants.LIMIT
-import com.slash.batterychargelimit.Constants.LIMIT_BY_VOLTAGE
-import com.slash.batterychargelimit.Constants.MIN
-import com.slash.batterychargelimit.Constants.NOTIFICATION_SOUND
-import com.slash.batterychargelimit.Constants.SETTINGS
-import com.slash.batterychargelimit.Constants.SETTINGS_VERSION
-import com.slash.batterychargelimit.fragments.AboutFragment
-import com.slash.batterychargelimit.settings.CtrlFileHelper
-import com.slash.batterychargelimit.settings.PrefsFragment
+import io.github.muntashirakon.BatteryChargeLimiter.*
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.AUTO_RESET_STATS
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.CHARGE_LIMIT_ENABLED
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.DISABLE_CHARGE_NOW
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.LIMIT
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.LIMIT_BY_VOLTAGE
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.MIN
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.NOTIFICATION_SOUND
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.SETTINGS
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.SETTINGS_VERSION
+import io.github.muntashirakon.BatteryChargeLimiter.fragments.AboutFragment
+import io.github.muntashirakon.BatteryChargeLimiter.settings.CtrlFileHelper
+import io.github.muntashirakon.BatteryChargeLimiter.settings.PrefsFragment
 import eu.chainfire.libsuperuser.Shell
 import java.lang.ref.WeakReference
 
@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity() {
         if (!prefs.getBoolean(getString(R.string.previously_started), false)) {
             // whitelist App for Doze Mode
             Utils.suShell.addCommand(
-                "dumpsys deviceidle whitelist +com.slash.batterychargelimit",
+                "dumpsys deviceidle whitelist +io.github.muntashirakon.BatteryChargeLimiter",
                 0
             ) { _, _, _ ->
                 prefs.edit().putBoolean(getString(R.string.previously_started), true).apply()
