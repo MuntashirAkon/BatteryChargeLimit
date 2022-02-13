@@ -1,4 +1,4 @@
-package com.slash.batterychargelimit.settings
+package io.github.muntashirakon.BatteryChargeLimiter.settings
 
 import android.content.Context
 import android.os.Bundle
@@ -10,9 +10,9 @@ import android.widget.ListView
 import android.widget.RadioButton
 import android.widget.TextView
 import androidx.preference.PreferenceDialogFragmentCompat
-import com.slash.batterychargelimit.ControlFile
-import com.slash.batterychargelimit.R
-import com.slash.batterychargelimit.Utils
+import io.github.muntashirakon.BatteryChargeLimiter.ControlFile
+import io.github.muntashirakon.BatteryChargeLimiter.R
+import io.github.muntashirakon.BatteryChargeLimiter.Utils
 
 class ControlFileDialogFragmentCompat : PreferenceDialogFragmentCompat() {
     private var ctrlFiles = emptyList<ControlFile>()

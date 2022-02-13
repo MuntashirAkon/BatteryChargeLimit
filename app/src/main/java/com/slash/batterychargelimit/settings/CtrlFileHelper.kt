@@ -1,10 +1,10 @@
-package com.slash.batterychargelimit.settings
+package io.github.muntashirakon.BatteryChargeLimiter.settings
 
 import android.app.ProgressDialog
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.slash.batterychargelimit.Utils
+import io.github.muntashirakon.BatteryChargeLimiter.Utils
 
 object CtrlFileHelper {
 

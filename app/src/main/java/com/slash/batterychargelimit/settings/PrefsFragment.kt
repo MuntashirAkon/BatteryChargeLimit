@@ -1,4 +1,4 @@
-package com.slash.batterychargelimit.settings
+package io.github.muntashirakon.BatteryChargeLimiter.settings
 
 import android.content.Context
 import android.content.Intent
@@ -15,10 +15,10 @@ import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
-import com.slash.batterychargelimit.Constants
-import com.slash.batterychargelimit.R
-import com.slash.batterychargelimit.activities.CustomCtrlFileDataActivity
-import com.slash.batterychargelimit.activities.MainActivity
+import io.github.muntashirakon.BatteryChargeLimiter.Constants
+import io.github.muntashirakon.BatteryChargeLimiter.R
+import io.github.muntashirakon.BatteryChargeLimiter.activities.CustomCtrlFileDataActivity
+import io.github.muntashirakon.BatteryChargeLimiter.activities.MainActivity
 
 class PrefsFragment : PreferenceFragmentCompat() {
 
