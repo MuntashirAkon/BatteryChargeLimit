@@ -18,7 +18,7 @@
             android:defaultValue="false"
             app:iconSpaceReserved="false" />
 
-        <com.slash.batterychargelimit.settings.ControlFilePreference
+        <io.github.muntashirakon.BatteryChargeLimiter.settings.ControlFilePreference
             app:iconSpaceReserved="false"
             android:key="control_file"
             android:title="@string/set_control_file"
