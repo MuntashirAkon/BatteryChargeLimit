@@ -1,4 +1,4 @@
-package com.slash.batterychargelimit.receivers
+package io.github.muntashirakon.BatteryChargeLimiter.receivers
 
 import android.content.*
 import android.os.BatteryManager
@@ -6,18 +6,18 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import androidx.preference.PreferenceManager
-import com.slash.batterychargelimit.Constants.CHARGING_CHANGE_TOLERANCE_MS
-import com.slash.batterychargelimit.Constants.LIMIT
-import com.slash.batterychargelimit.Constants.MAX_BACK_OFF_TIME
-import com.slash.batterychargelimit.Constants.MIN
-import com.slash.batterychargelimit.Constants.NOTIF_CHARGE
-import com.slash.batterychargelimit.Constants.NOTIF_MAINTAIN
-import com.slash.batterychargelimit.Constants.POWER_CHANGE_TOLERANCE_MS
-import com.slash.batterychargelimit.Constants.SETTINGS
-import com.slash.batterychargelimit.ForegroundService
-import com.slash.batterychargelimit.R
-import com.slash.batterychargelimit.Utils
-import com.slash.batterychargelimit.settings.PrefsFragment
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.CHARGING_CHANGE_TOLERANCE_MS
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.LIMIT
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.MAX_BACK_OFF_TIME
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.MIN
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.NOTIF_CHARGE
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.NOTIF_MAINTAIN
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.POWER_CHANGE_TOLERANCE_MS
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.SETTINGS
+import io.github.muntashirakon.BatteryChargeLimiter.ForegroundService
+import io.github.muntashirakon.BatteryChargeLimiter.R
+import io.github.muntashirakon.BatteryChargeLimiter.Utils
+import io.github.muntashirakon.BatteryChargeLimiter.settings.PrefsFragment
 
 
 /**

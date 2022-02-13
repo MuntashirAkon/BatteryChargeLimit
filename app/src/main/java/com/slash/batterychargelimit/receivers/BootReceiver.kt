@@ -1,10 +1,10 @@
-package com.slash.batterychargelimit.receivers
+package io.github.muntashirakon.BatteryChargeLimiter.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.slash.batterychargelimit.Constants
-import com.slash.batterychargelimit.Utils
+import io.github.muntashirakon.BatteryChargeLimiter.Constants
+import io.github.muntashirakon.BatteryChargeLimiter.Utils
 
 /**
  * Created by Michael on 20.04.2017.

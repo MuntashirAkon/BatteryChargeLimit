@@ -1,13 +1,13 @@
-package com.slash.batterychargelimit.receivers
+package io.github.muntashirakon.BatteryChargeLimiter.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.slash.batterychargelimit.Constants.POWER_CHANGE_TOLERANCE_MS
-import com.slash.batterychargelimit.ForegroundService
-import com.slash.batterychargelimit.Utils
-import com.slash.batterychargelimit.settings.PrefsFragment
+import io.github.muntashirakon.BatteryChargeLimiter.Constants.POWER_CHANGE_TOLERANCE_MS
+import io.github.muntashirakon.BatteryChargeLimiter.ForegroundService
+import io.github.muntashirakon.BatteryChargeLimiter.Utils
+import io.github.muntashirakon.BatteryChargeLimiter.settings.PrefsFragment
 
 /**
  * Created by harsha on 30/1/17.
