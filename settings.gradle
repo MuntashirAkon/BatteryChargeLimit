@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Battery Charge Limit"
+rootProject.name = "Battery Charge Limiter"
