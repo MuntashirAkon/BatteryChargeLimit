@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="source_code_title">源代码</string>
+    <string name="source_code" translatable="false"><a href="https://github.com/sriharshaarangi/BatteryChargeLimit">Source Code</a></string>
+    <string name="xda_thread" translatable="false"><a href="https://forum.xda-developers.com/android/apps-games/root-battery-charge-limit-t3557002/">XDA Thread</a></string>
+    <string name="about">关于</string>
+    <string name="disable_charge_now">立即禁用充电</string>
+    <string name="limit_by_voltage">电压限制</string>
+    <string name="custom_voltage_threshold">自定义电压阈值（）</string>
+    <string name="enable">启用充电限制</string>
+    <string name="notify">达到限制时发送通知</string>
+    <string name="limit">充至 %1$d%% 时停止</string>
+    <string name="recharge_below">低于 %1$d%% 时开始充电</string>
+    <string name="status">状态：</string>
+    <string name="status_ctrl_data_label">CTRL 文件数据</string>
+    <string name="experimental">实验性</string>
+    <string name="issues">已知问题</string>
+    <string name="auto_reset_stats">自动重置电池状态</string>
+    <string name="reset_stats">重置电池状态</string>
+    <string name="disable">禁用</string>
+    <string name="disable_temporarily">暂时禁用</string>
+    <string name="dismiss">忽略</string>
+    <string name="open_app">打开应用</string>
+    <string name="file_data">(CTRL 文件的数据将会显现于此处)</string>
+
+    <string name="previously_started">Previously Started</string>
+    <string name="device_not_supported">您的设备（尚）不受支持！</string>
+    <string name="ok">OK</string>
+    <string name="no_recharge">不自动充电</string>
+
+    <string name="charging">充电中…</string>
+    <string name="discharging">放电中…</string>
+    <string name="full">充满了</string>
+    <string name="not_charging">未在充电</string>
+    <string name="unknown">未知</string>
+
+    <string name="please_wait">请等待…</string>
+    <string name="maintaining_x_to_y">保持 %1$d%% - %2$d%% 的电量</string>
+    <string name="maintaining_description">如果设备未连接充电器，则取消充电限制</string>
+    <string name="waiting_until_x">正在充至 %1$d%%</string>
+    <string name="waiting_description">一旦达到限制，电池将停止充电</string>
+    <string name="battery_info_C">电压: %1$.3f V, 温度: %2$.1f &#8451;</string>
+    <string name="battery_info_F">电压: %1$.3f V, 温度: %2$.1f &#8457;</string>
+
+    <string name="root_denied">应用程序被拒绝 ROOT 访问或设备​​未 ROOT！</string>
+    <string name="stats_reset_success">电池状态重置成功</string>
+
+    <string name="intent_handle_activity">电池充电限制处理 activity</string>
+    <string name="intent_invalid">提供的 intend 无效。</string>
+    <string name="intent_limit_invalid">提供的限制无效。</string>
+    <string name="intent_limit_accepted">电池充电限制更改为 %1$d%%。</string>
+    <string name="mime_battery_limit" translatable="false">text/x-battery-limit</string>
+
+    <string name="service_enabled"> 电池限制服务已启用！ </string>
+    <string name="service_disabled"> 电池限制服务已禁用！ </string>
+
+    <string name="main_settings">主要设置</string>
+    <string name="set_control_file">设置 CTRL 文件</string>
+    <string name="select_control_file">选择 CTRL 文件</string>
+    <string name="show_temperature_fahrenheit">温度使用华氏度 &#8457;</string>
+    <string name="show_temperature_in_notification">在通知中显示温度</string>
+    <string name="enforce_charge_limit">强制使用充电限制</string>
+    <string name="enforce_charge_limit_desc">试图通过切换 CTRL 文件的状态来迫使设备识别 CTRL 文件的变化，其延迟时间不断增加(recognize changes to the control file by toggling its state with an increasing delay)</string>
+    <string name="always_write_cf">总是覆写 CTRL 文件</string>
+    <string name="always_write_cf_desc">总是覆写 CTRL 文件，即使它已经包含了新的内容</string>
+
+    <string name="advanced_settings">高级设置</string>
+    <string name="immediate_power_intent_handling">始终处理电源事件</string>
+    <string name="immediate_power_intent_handling_desc">电源更改将立即被识别，即使在 CTRL 文件更改后也是如此。\n仅用于受支持的 CTRL 文件，如 battery_charging_enabled 或 store_mode ！</string>
+    <string name="disable_auto_recharge">禁用自动重充电(Auto rechage)</string>
+    <string name="disable_auto_recharge_desc">实验性：启用此选项还会在达到限制后隐藏通知。重要提示：卸载前禁用此选项或卸载后重新启动</string>
+
+    <string name="hide_toast_on_service_change">隐藏服务变更时的提醒</string>
+
+    <string name="control_file_settings">CTRL 文件的数据</string>
+    <string name="current_ctrl_data_title">已配置的文件的数据</string>
+    <string name="control_file_option_summary_on">正在使用用户指定的 CTRL 文件数据</string>
+    <string name="control_file_option_summary_off">正在使用的预定义 CTRL 文件</string>
+    <string name="control_file_alert_title">三思而后行！</string>
+    <string name="control_file_alert_desc">警告：如果不知道自己在干嘛，胡乱篡改这部分内容，可能会给你的设备带来无法预料的问题。重新启动设备通常可以解决很多问题，然而，有些问题可能不那么容易解决。请谨慎行事！</string>
+    <string name="control_understand">清楚明白</string>
+    <string name="control_file_heads_up_title">CTRL 文件信息</string>
+    <string name="control_file_heads_up_desc">只有在你的设备上检测到的 CTRL 文件才会显示为可用。如果检测到一个 CTRL 文件，但为其他设备的，它应该也可以安全使用。在 GitHub 上给你的设备开个 issue 或发个 PR，将 CTRL 文件的数据添加到这个列表中。（译注：文件在仓库的 /app/src/main/res/rawcontrol_files.json）</string>
+
+    <string name="custom_ctrl_file_data_title">可配置的 CTRL 文件数据</string>
+    <string name="custom_ctrl_file_data_setup_title">配置 CTRL 文件数据</string>
+    <string name="custom_ctrl_file_path_title">设置所需文件的路径</string>
+    <string name="custom_ctrl_file_path_hint">/sys/folder/folder/desired_file</string>
+    <string name="custom_ctrl_file_enabled_title">设置启用值</string>
+    <string name="custom_ctrl_file_enabled_hint">1, enabled, desired_value</string>
+    <string name="custom_ctrl_file_disabled_title">设置禁用值</string>
+    <string name="custom_ctrl_file_disabled_hint">0, disabled, desired_value</string>
+    <string name="custom_ctrl_file_updated_info">更新信息后，更新的数据将显示在此处</string>
+    <string name="custom_ctrl_file_heads_up">如果您遇到应用程序崩溃或服务无法正常运行的问题，请尝试在设置中启用始终写入 CTRL 文件。无法保证此可配置 CTRL 文件功能将支持所有设备和文件/值。如果出现问题，请尝试调整设置或确保数据正确。</string>
+    <string name="custom_ctrl_file_update_data">更新 CTRL 文件数据</string>
+
+    <string name="theme">主题</string>
+    <string name="light">白天</string>
+    <string name="dark">黑暗</string>
+    <string name="black">黑暗 - AMOLED</string>
+    <string name="current_voltage_threshold">当前电压阈值</string>
+    <string name="default_voltage_threshold">默认的电压阈值</string>
+    <string name="control_battery_charge_permission_label">控制电池充电</string>
+    <string name="control_battery_charge_permission_description">控制电池充电</string>
+    <string name="version">版本</string>
+    <string name="app_author">© 2021—2022 <a href="https://github.com/MuntashirAkon">Muntashir Al-Islam</a></string>
+    <string name="license_title">协议</string>
+    <string name="credits_title">功劳</string>
+    <string name="credits_details">归于这些作者们
+        \n- The Android Open Source Project
+        \n- <a href="https://github.com/sriharshaarangi/BatteryChargeLimit">BatteryChargeLimit</a>
+    </string>
+    <string name="close">关闭</string>
+    <string name="voltage_threshold_title">电压阈值（以 mV 或 µV 为单位）</string>
+</resources>
