@@ -11,7 +11,7 @@
     <string name="enable">启用充电限制</string>
     <string name="notify">达到限制时发送通知</string>
     <string name="limit">充至 %1$d%% 时停止</string>
-    <string name="recharge_below">低于 %1$d%% 时开始充电</string>
+    <string name="recharge_below">低于 %1$d%% 时开始重充电</string>
     <string name="status">状态：</string>
     <string name="status_ctrl_data_label">CTRL 文件数据</string>
     <string name="experimental">实验性</string>
@@ -27,7 +27,7 @@
     <string name="previously_started">Previously Started</string>
     <string name="device_not_supported">您的设备（尚）不受支持！</string>
     <string name="ok">OK</string>
-    <string name="no_recharge">不自动充电</string>
+    <string name="no_recharge">不自动重充电</string>
 
     <string name="charging">充电中…</string>
     <string name="discharging">放电中…</string>
