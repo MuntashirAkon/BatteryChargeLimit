@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="source_code_title">சோர்ஸ் கோட்</string>
+    <string name="source_code" translatable="false"><a href="https://github.com/sriharshaarangi/BatteryChargeLimit">Source Code</a></string>
+    <string name="xda_thread" translatable="false"><a href="https://forum.xda-developers.com/android/apps-games/root-battery-charge-limit-t3557002/">XDA Thread</a></string>
+    <string name="about">தகவல்</string>
+    <string name="disable_charge_now">இப்போது சார்ஜை முடக்கு</string>
+    <string name="limit_by_voltage">மின்னழுத்தத்தால் வரம்பு</string>
+    <string name="custom_voltage_threshold">தனிப்பயன் மின்னழுத்த வரம்பு</string>
+    <string name="enable">சார்ஜின் வரம்பை இயக்கவும்</string>
+    <string name="notify">வரம்பை அடைந்ததும் தெரிவிக்கவும்</string>
+    <string name="limit">சார்ஜ் செய்வதை %1$d%% ஆக வரம்பிடவும்</string>
+    <string name="recharge_below">%1$d%%க்கு கீழே ரீசார்ஜ் செய்யவும்</string>
+    <string name="status">நிலை: </string>
+    <string name="status_ctrl_data_label">கோப்புத் தரவைக் கட்டுப்படுத்தவும்</string>
+    <string name="experimental">பரிசோதனை</string>
+    <string name="issues">அறியப்பட்ட சிக்கல்கள்</string>
+    <string name="auto_reset_stats">பேட்டரி புள்ளிவிவரங்களை தானாக மீட்டமைக்கவும்</string>
+    <string name="reset_stats">பேட்டரி புள்ளிவிவரங்களை மீட்டமைக்கவும்</string>
+    <string name="disable">முடக்கு</string>
+    <string name="disable_temporarily">தற்காலிகமாக முடக்கு</string>
+    <string name="dismiss">நிராகரி</string>
+    <string name="open_app">பயன்பாட்டைத் திறக்கவும்</string>
+    <string name="file_data">(CTRL கோப்பு தரவு இங்கே தோன்றும்)</string>
+
+    <string name="previously_started">முன்பு தொடங்கப்பட்டது</string>
+    <string name="device_not_supported">உங்கள் சாதனம் ஆதரிக்கப்படவில்லை (இன்னும்)!</string>
+    <string name="ok">சரி</string>
+    <string name="no_recharge">தானியங்கி ரீசார்ஜ் இல்லை</string>
+
+    <string name="charging">சார்ஜிங்</string>
+    <string name="discharging">டிஸ்சார்ஜிங்</string>
+    <string name="full">முழு</string>
+    <string name="not_charging">சார்ஜ் செய்யவில்லை</string>
+    <string name="unknown">தெரியவில்லை</string>
+
+    <string name="please_wait">தயவுசெய்து காத்திருங்கள்…</string>
+    <string name="maintaining_x_to_y">%1$d%% - %2$d%% வரை பராமரிக்கிறது</string>
+    <string name="maintaining_description">சாதனம் துண்டிக்கப்பட்டால், சேவையை முடக்கவும்</string>
+    <string name="waiting_until_x">%1$d%% வரை சார்ஜ் செய்யப்படுகிறது</string>
+    <string name="waiting_description">வரம்பை அடைந்ததும் பேட்டரி சார்ஜ் செய்வதை நிறுத்தும்</string>
+    <string name="battery_info_C">U: %1$.3f V, T: %2$.1f &#8451;</string>
+    <string name="battery_info_F">U: %1$.3f V, T: %2$.1f &#8457;</string>
+
+    <string name="root_denied">பயன்பாட்டிற்கு ரூட் அணுகல் மறுக்கப்பட்டது அல்லது சாதனம் ரூட் செய்யப்படவில்லை!</string>
+    <string name="stats_reset_success">பேட்டரி புள்ளிவிவரங்கள் மீட்டமைக்கப்பட்டது</string>
+
+    <string name="intent_handle_activity">பேட்டரி சார்ஜ் வரம்பு கையாளுதல் செயல்பாடு</string>
+    <string name="intent_invalid">வழங்கப்பட்ட நோக்கம் தவறானது.</string>
+    <string name="intent_limit_invalid">வழங்கப்பட்ட வரம்பு தவறானது.</string>
+    <string name="intent_limit_accepted">பேட்டரி சார்ஜிங் வரம்பு %1$d%% ஆக மாற்றப்பட்டது.</string>
+    <string name="mime_battery_limit" translatable="false">text/x-battery-limit</string>
+
+    <string name="service_enabled"> பேட்டரி வரம்பு சேவை இயக்கப்பட்டது! </string>
+    <string name="service_disabled"> பேட்டரி வரம்பு சேவை முடக்கப்பட்டுள்ளது! </string>
+
+    <string name="main_settings">முக்கிய அமைப்புகள்</string>
+    <string name="set_control_file">கட்டுப்பாட்டு கோப்பை அமைக்கவும்</string>
+    <string name="select_control_file">கட்டுப்பாட்டு கோப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="show_temperature_fahrenheit">&#8457; இல் வெப்பநிலையைக் காட்டு</string>
+    <string name="show_temperature_in_notification">அறிவிப்பில் வெப்பநிலையைக் காட்டு</string>
+    <string name="enforce_charge_limit">சார்ஜ் வரம்பை அமல்படுத்தவும்</string>
+    <string name="enforce_charge_limit_desc">அதிகரிக்கும் தாமதத்துடன் அதன் நிலையை மாற்றுவதன் மூலம் கட்டுப்பாட்டு கோப்பில் மாற்றங்களை அடையாளம் காண சாதனத்தை கட்டாயப்படுத்தும் முயற்சி</string>
+    <string name="always_write_cf">எப்போதும் CTRL கோப்பை எழுதவும்</string>
+    <string name="always_write_cf_desc">ஏற்கனவே புதிய உள்ளடக்கம் இருந்தாலும், கட்டுப்பாட்டு கோப்பை எப்போதும் கண்மூடித்தனமாக மேலெழுதவும்</string>
+
+    <string name="advanced_settings">மேம்பட்ட அமைப்புகள்</string>
+    <string name="immediate_power_intent_handling">சக்தி நிகழ்வுகளை எப்போதும் கையாளவும்</string>
+    <string name="immediate_power_intent_handling_desc">கட்டுப்பாட்டு கோப்பு மாற்றங்களுக்குப் பிறகும் ஆற்றல் மாற்றங்கள் உடனடியாக அங்கீகரிக்கப்படும்.\nBattery_charging_enabled அல்லது store_mode போன்ற ஆதரிக்கப்படும் கட்டுப்பாட்டு கோப்புகளுக்கு மட்டும் பயன்படுத்தவும்!</string>
+    <string name="disable_auto_recharge"> தானாக ரீசார்ஜ் செய்வதை முடக்கு</string>
+    <string name="disable_auto_recharge_desc">பரிசோதனை: இந்த விருப்பத்தை இயக்குவது வரம்பை அடைந்த பிறகு அறிவிப்பையும் மறைக்கும். முக்கியமானது: நிறுவல் நீக்குவதற்கு முன் இந்த விருப்பத்தை முடக்கவும் அல்லது நிறுவல் நீக்கிய பின் மறுதொடக்கம் செய்யவும்</string>
+
+    <string name="hide_toast_on_service_change">சேவை மாற்றங்களில் டோஸ்டை மறை</string>
+
+    <string name="control_file_settings">கோப்புத் தரவைக் கட்டுப்படுத்தவும்</string>
+    <string name="current_ctrl_data_title">கட்டமைக்கப்பட்ட கோப்பு தரவு</string>
+    <string name="control_file_option_summary_on">பயனர் குறிப்பிட்ட CTRL கோப்பு தரவு பயன்படுத்தப்படுகிறது</string>
+    <string name="control_file_option_summary_off">முன் வரையறுக்கப்பட்ட CTRL கோப்பு பயன்படுத்தப்படுகிறது</string>
+    <string name="control_file_alert_title">மேம்பட்ட பயனர்கள் மட்டும்!</string>
+    <string name="control_file_alert_desc">எச்சரிக்கை: நீங்கள் என்ன மாற்றுகிறீர்கள் என்பது தெரியாமல் இந்தப் பிரிவைத் திருத்துவது உங்கள் சாதனத்தில் எதிர்பாராத சிக்கல்களை ஏற்படுத்தலாம். சாதனத்தை மறுதொடக்கம் செய்வது பொதுவாக நிறைய சிக்கல்களை சரிசெய்கிறது, இருப்பினும், சிலவற்றை எளிதில் சரி செய்ய முடியாது. எச்சரிக்கையுடன் தொடரவும்!</string>
+    <string name="control_understand">எனக்கு புரிகிறது</string>
+    <string name="control_file_heads_up_title">கட்டுப்பாட்டு கோப்பு தகவல்</string>
+    <string name="control_file_heads_up_desc">உங்கள் சாதனத்தில் கண்டறியப்பட்ட கட்டுப்பாட்டு கோப்புகள் மட்டுமே கிடைக்கும்படி காண்பிக்கப்படும். ஒரு கட்டுப்பாட்டு கோப்பு கண்டறியப்பட்டால், ஆனால் மற்றொரு சாதனத்திற்கு, அதைப் பயன்படுத்துவது பாதுகாப்பானதாக இருக்க வேண்டும். இந்தப் பட்டியலில் சேர்க்கப்பட வேண்டிய கட்டுப்பாட்டுக் கோப்புத் தரவுடன் உங்கள் சாதனத்திற்கான சிக்கலைத் திறக்கவும் அல்லது GitHub இல் இழுக்கும் கோரிக்கையை அனுப்பவும்.</string>
+
+    <string name="custom_ctrl_file_data_title">கட்டமைக்கக்கூடிய CTRL கோப்பு தரவு</string>
+    <string name="custom_ctrl_file_data_setup_title">கட்டுப்பாட்டு தரவை உள்ளமைக்கவும்</string>
+    <string name="custom_ctrl_file_path_title">விரும்பிய கோப்பிற்கு பாதையை அமைக்கவும்</string>
+    <string name="custom_ctrl_file_path_hint">/sys/folder/folder/desired_file</string>
+    <string name="custom_ctrl_file_enabled_title">செயல்படுத்தப்பட்ட மதிப்பை அமைக்கவும்</string>
+    <string name="custom_ctrl_file_enabled_hint">1, இயக்கப்பட்டது, desired_value</string>
+    <string name="custom_ctrl_file_disabled_title">முடக்கப்பட்ட மதிப்பை அமைக்கவும்</string>
+    <string name="custom_ctrl_file_disabled_hint">0, முடக்கப்பட்டது, desired_value</string>
+    <string name="custom_ctrl_file_updated_info">நீங்கள் தகவலைப் புதுப்பித்தவுடன் புதுப்பிக்கப்பட்ட தரவு இங்கே தோன்றும்</string>
+    <string name="custom_ctrl_file_heads_up">ஆப் செயலிழந்தால் அல்லது சேவை சரியாக வேலை செய்யாமல் இருந்தால், அமைப்புகளில் எப்போதும் எழுது CTRL கோப்பை இயக்க முயற்சிக்கவும். இந்த உள்ளமைக்கக்கூடிய கட்டுப்பாட்டு கோப்பு செயல்பாடு அனைத்து சாதனங்கள் மற்றும் கோப்புகள்/மதிப்புகளை ஆதரிக்கும் என்பதற்கு எந்த உத்தரவாதமும் இல்லை. சிக்கல்கள் ஏற்பட்டால் அமைப்புகளைச் சரிசெய்ய முயற்சிக்கவும் அல்லது தரவு சரியானது என்பதை உறுதிப்படுத்தவும்.</string>
+    <string name="custom_ctrl_file_update_data">CTRL கோப்புத் தரவைப் புதுப்பிக்கவும்</string>
+
+    <string name="theme">தீம்</string>
+    <string name="light">ஒளி</string>
+    <string name="dark">இருள்</string>
+    <string name="black">கருப்பு - AMOLED</string>
+    <string name="current_voltage_threshold">தற்போதைய மின்னழுத்த வரம்பு</string>
+    <string name="default_voltage_threshold">இயல்புநிலை மின்னழுத்த வரம்பு</string>
+    <string name="control_battery_charge_permission_label">பேட்டரி சார்ஜ் கட்டுப்படுத்தவும்</string>
+    <string name="control_battery_charge_permission_description">பேட்டரி சார்ஜ் கட்டுப்படுத்த</string>
+    <string name="version">பதிப்பு</string>
+    <string name="app_author">© 2021—2022 <a href="https://github.com/MuntashirAkon">Muntashir Al-Islam</a></string>
+    <string name="license_title">உரிமம்</string>
+    <string name="credits_title">கடன்கள்</string>
+    <string name="credits_details">ஆசிரியர்கள்
+        \n- The Android Open Source Project
+        \n- <a href="https://github.com/sriharshaarangi/BatteryChargeLimit">BatteryChargeLimit</a>
+    </string>
+    <string name="close">மூடு</string>
+    <string name="voltage_threshold_title">மின்னழுத்த வரம்பு (mV அல்லது µV இல்)</string>
+</resources>
