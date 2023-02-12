@@ -6,6 +6,12 @@ _This app is a work in progress. If a feature is not working, do not hesitate to
 
 **NOTE:** This is app currently requires root to function. While it is not possible to control charging without root, an alarm-based solution might be implemented for no-root users in the future.
 
+[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
+     alt="Get it on IzzyOnDroid"
+     height="80">](https://apt.izzysoft.de/fdroid/index/apk/io.github.muntashirakon.bcl)
+
+Or get the latest APK from the [Releases Section](https://github.com/MuntashirAkon/BatteryChargeLimiter/releases/latest).
+
 ## Features
 - Free and open source.
 - Material 3 with dynamic colours.
