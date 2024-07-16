@@ -2,11 +2,11 @@
 <!-- Translation by @ibilux on 04/03/2019 -->
 <resources>
     <string name="action_settings">الإعدادات</string>
-    <string name="source_code_title">الشفرة المصدرية</string>
+    <string name="source_code_title">رمز المصدر</string>
     <string name="about">حول</string>
     <string name="disable_charge_now">تعطيل الشحن الآن</string>
-    <string name="limit_by_voltage">الحد من الفولطية</string>
-    <string name="custom_voltage_threshold">عتبة فولطية مخصصة</string>
+    <string name="limit_by_voltage">الحد من الجهد</string>
+    <string name="custom_voltage_threshold">عتبة جهد مخصصة</string>
     <string name="enable">تمكين حد الشحن</string>
     <string name="notify">الإشعار عند الوصول إلى الحد</string>
     <string name="limit">الحد من الشحن إلى %1$d%%</string>
@@ -20,12 +20,12 @@
     <string name="disable">تعطيل</string>
     <string name="disable_temporarily">التعطيل مؤقتا</string>
     <string name="dismiss">رفض</string>
-    <string name="open_app">افتح التطبيق</string>
+    <string name="open_app">فتح التطبيق</string>
     <string name="file_data">(ستظهر بيانات ملف CTRL هنا)</string>
 
-    <string name="previously_started">تم البدأ مسبقا</string>
+    <string name="previously_started">تم البدأ مسبقاً</string>
     <string name="device_not_supported">جهازك غير مدعوم (حتى الآن)!</string>
-    <string name="ok">حسنا</string>
+    <string name="ok">حسناً</string>
     <string name="no_recharge">لا إعادة شحن تلقائية</string>
 
     <string name="charging">جاري الشحن</string>
@@ -56,7 +56,7 @@
     <string name="main_settings">الإعدادات الرئيسية</string>
     <string name="set_control_file">تعيين ملف التحكم</string>
     <string name="select_control_file">حدد ملف التحكم</string>
-    <string name="show_temperature_fahrenheit">عرض درجة الحرارة بـ &#8457;</string>
+    <string name="show_temperature_fahrenheit">عرض درجة الحرارة بـ&#8457;</string>
     <string name="show_temperature_in_notification">عرض درجة الحرارة في الإشعارات</string>
     <string name="enforce_charge_limit">فرض حد الشحن</string>
     <string name="enforce_charge_limit_desc">محاولة إجبار الجهاز للتعرف على التغييرات في ملف التحكم عن طريق تبديل حالته مع تأخير متزايد</string>
@@ -93,8 +93,23 @@
     <string name="custom_ctrl_file_heads_up">إذا كنت تواجه مشكلات مع تعطل التطبيق أو أن الخدمة لا تعمل بشكل صحيح، حاول تمكين خاصية الكتابة دائما على ملف CTRL في الإعدادات. ليس هناك ما يضمن أن وظيفة ملف التحكم القابلة للتكوين ستدعم جميع الأجهزة والملفات/القيم. حاول ضبط الإعدادات في حالة حدوث مشكلات أو قم بالتأكد من صحة البيانات.</string>
     <string name="custom_ctrl_file_update_data">تحديث بيانات ملف CTRL</string>
 
-    <string name="theme">مظهر</string>
-    <string name="light">مضيئ</string>
+    <string name="theme">المظهر</string>
+    <string name="light">ساطع</string>
     <string name="dark">داكن</string>
     <string name="black">أسود - أموليد</string>
+    <string name="current_voltage_threshold">حد الجهد الحالي</string>
+    <string name="default_voltage_threshold">حد الجهد الافتراضي</string>
+    <string name="control_battery_charge_permission_label">التحكم في شحن البطارية</string>
+    <string name="control_battery_charge_permission_description">التحكم في شحن البطارية</string>
+    <string name="version">الإصدار</string>
+    <string name="app_author">© 2021—2022 <a href="https://github.com/MuntashirAkon">Muntashir Al-Islam</a></string>
+    <string name="license_title">التراخيص</string>
+    <string name="credits_title">الاعتمادات</string>
+    <string name="credits_details">إلى مؤلفي
+    \n- مشروع أندرويد مفتوح المصدر
+    \n- <a href="https://github.com/sriharshaarangi/BatteryChargeLimit">حد شحن البطارية</a>
+</string>
+<string name="close">إغلاق</string>
+<string name="voltage_threshold_title">حد الجهد (بالملي فولت أو الميكرو فولت)</string>
+
 </resources>
