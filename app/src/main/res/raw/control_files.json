@@ -113,6 +113,13 @@
     "chargeOff": "Discharging",
     "experimental": true
   },
+   {"file": "/sys/class/power_supply/battery/input_current_limit",
+    "label": "status",
+    "details": "Motorola G71 5G",
+    "chargeOn": "0",
+    "chargeOff": "1",
+    "experimental": true
+  },
   {
     "file": "/sys/class/power_supply/battery/battery_charging_enabled",
     "label": "battery_charging_enabled",
